@@ -1,0 +1,38 @@
+@startuml name pizza order
+!pragma useVerticalIf on
+start
+:cost = 0;
+if(cheese == Y) then (yes)
+  :cost += 1;
+(no) elseif (cheese == N) then (yes)
+else (no)
+  :Bad cheese;
+  end
+endif
+if (pepperoni == Y) then (yes)
+  if (size == S) then (yes)
+    :cost += 15 + 2;
+  (no) elseif (size == M) then (yes)
+    :cost += 20 + 3;
+  (no) elseif (size == L) then (yes)
+    :cost += 25 + 3;
+  else (no)
+    :Wrong size;
+    end
+  endif
+(no) elseif (pepperoni == N) then (yes)
+  if (size == S) then (yes)
+    :cost += 15;
+  (no) elseif (size == M) then (yes)
+    :cost += 20;
+  (no) elseif (size == L) then (yes)
+    :cost += 25;
+  else (no)
+    :Wrong size;
+    end
+  endif
+else (no)
+  :Bad pepperoni;
+  end
+endif
+@enduml

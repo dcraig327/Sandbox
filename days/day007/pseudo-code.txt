@@ -1,0 +1,18 @@
+
+
+
+#6 misses = game over
+
+* clear screen
+
+visible-phrase
+word-list
+chosen-word
+number-of-misses
+
+
+
+
+* print "You win."
+
+* print "You lose."

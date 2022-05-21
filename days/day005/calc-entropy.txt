@@ -1,0 +1,69 @@
+
+
+offline hash cracking
+
+brute-force
+
+1-password
+default 13 characters composed of charcter and numbers
+
+#44 words
+fifth airtight gape euphoric giveaway outfit
+#14 ch
+#13 ch+num
+#12 ch+num+sym
+
+
+start with all lowercase
+add uppercase
+add numbers
+add symbols
+
+
+
+for a random sequency of lowercase, uppercase, and numbers composed of 13 characters
+what is the entropy and how does that compare to the entropy in a word basedpassword
+using brute force
+
+
+start with all lowercase add uppercase add numbers for exactly 13 characters
+
+26 + 26 + 10 = 62 ** 13
+200,028,539,268,669,788,905,472
+(13 characters with 1 3090 = 95,000 years)
+
+goal: 100 years
+
+200 Hextillion
+200 x 10^21
+
+
+45m
+5,429,503,678,976
+9 characters
+2020
+
+5.43 trillion 
+5.43 x 10^15
+
+2,010,927,288.5
+2 billion h/s
+
+
+
+
+mentioned here https://uwnthesis.wordpress.com/2020/07/01/brute-force-password-how-long-will-it-take-to-brute-force-a-password/
+2.1x10^8 years for 13
+14 years for 9 characters
+
+8800 200m/s MD5
+3090 66,250m/s MD5
+
+
+https://www.quora.com/What-algorithm-is-used-by-Google-Chrome-when-encrypting-synced-passwords
+it’s AES-128 in CBC mode
+
+ AES256-GCM
+
+ at least 33x slower, likely much much much slower
+ 

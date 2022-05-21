@@ -1,0 +1,9 @@
+Day 86 - Breakout game for portfolio. I'm only on day 15. I'm feeling Blackjack from day 11. Yet it just felt like it didn't do it justice. If you are heading to a casino and ask for for advice from someone that goes often on what game to play, what has the best odds. Blackjack will likely be among the top answers. I'm planning on putting a professional Blackjack game in my portfolio instead of Breakout as I've already did breakout in C.
+
+So the goal is to allow the user to implement various strategies before they goto the casino and to replicate the rules of that exact casino they're going to. These strategies, there's quite a bit
+
+
+Day 25 - interesting data sets:
+* squirels in central park
+* titanic passengers
+

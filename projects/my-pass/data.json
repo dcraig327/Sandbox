@@ -1,0 +1,14 @@
+{
+    "a": {
+        "login": "my@email.com",
+        "password": "a"
+    },
+    "b": {
+        "login": "my@email.com",
+        "password": "b"
+    },
+    "c": {
+        "login": "my@email.com",
+        "password": "c"
+    }
+}
