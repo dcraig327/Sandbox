@@ -1,6 +1,6 @@
 # sandbox
 1. [What](#what)
-2. [Current Work](#Current Work)
+2. [Current Work](#current-work)
 
 ## What
 
